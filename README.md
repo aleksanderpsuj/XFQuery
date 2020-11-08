@@ -54,6 +54,8 @@
 > * Nickname Check [✔️]
 > * Admin Status [🚧]
 
+## Configuration
+> After first run bot creates new folder (Configs) in main directory with MainConfig.json and Function Configs.
 ## Author
 
 👨 **Aleksander Psuj**
