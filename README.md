@@ -2,7 +2,6 @@
 
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/aleksanderpsuj/XFQuery/build-test?style=for-the-badge)
 ![GitHub issues](https://img.shields.io/github/issues/aleksanderpsuj/XFQuery?style=for-the-badge)
-![GitHub](https://img.shields.io/github/license/aleksanderpsuj/XFQuery?style=for-the-badge)
 ![GitHub contributors](https://img.shields.io/github/contributors/aleksanderpsuj/XFQuery?style=for-the-badge)
 
 > #### **XFQuery** is a event driven **teamspeak bot** written in **C#**. The goal of this bot is to **automate** the **boring** side of teamspeak, such as keeping an eye on users or creating channels, it has many features that will **automate** and keep your server **secure**.
