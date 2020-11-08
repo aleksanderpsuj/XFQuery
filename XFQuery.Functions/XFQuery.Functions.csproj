@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <RootNamespace>XFQuery.Functions</RootNamespace>
+        <IsPackable>false</IsPackable>
+        <PackageVersion>0.6-beta</PackageVersion>
+        <Title>TeamSpeakQuery Bot</Title>
+        <Authors>Aleksander Psuj</Authors>
+        <Company>Aleksander Psuj</Company>
+        <PackageLicenseExpression>BSD 3-Clause License</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/aleksanderpsuj/XFQuery</PackageProjectUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="AutoMapper" Version="10.1.1" />
+        <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+        <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="4.7.0" />
+        <PackageReference Include="TS3QueryLib.Net.Core" Version="0.5.0-alpha" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\XFQuery.Core\XFQuery.Core.csproj" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <Folder Include="Interval" />
+      <Folder Include="OnChannelCreate" />
+      <Folder Include="OnChannelDelete" />
+      <Folder Include="OnChannelDescriptionChange" />
+      <Folder Include="OnChannelEdit" />
+      <Folder Include="OnClientJoin" />
+      <Folder Include="OnClientLeave" />
+      <Folder Include="OnClientMessage" />
+      <Folder Include="OnClientMove" />
+      <Folder Include="OnServerEdit" />
+      <Folder Include="OnTokenUse" />
+    </ItemGroup>
+
+</Project>
